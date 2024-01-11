@@ -29,7 +29,7 @@ function App() {
         number = 0; //In case number is NaN, it assignes 0
       }
       const updatedRows = rowArr.map(
-        (row) => row.id === id ? { ...row, number: parseInt(number, 10) } : r
+        (row) => row.id === id ? { ...row, number: parseInt(number, 10) } : row
       );
       setRowArr(updatedRows);
   }
