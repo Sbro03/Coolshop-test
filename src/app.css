@@ -1,0 +1,20 @@
+#root{
+    height: 100vh;
+    display: flex;
+}
+
+.container{
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.adder{
+    margin-right: auto;
+}
+
+.input-row .btn{
+width: 100% !important;
+}
